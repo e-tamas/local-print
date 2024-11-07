@@ -22,6 +22,21 @@ def print_order():
     print("Printing ...")
     
     lines = order_text.split('\n')
+    # for line in lines: 
+    #     if "Order ID" in line: 
+    #         usb_printer.set(align='center', bold=True) 
+    #         usb_printer.text(f"{line}\n\n") 
+    #     elif "Phone" in line or "Date" in line or "Total" in line: 
+    #         usb_printer.set(align='left', bold=False) 
+    #         usb_printer.text(f"{line}\n") 
+    #     elif "Items:" in line: 
+    #         usb_printer.set(align='left', bold=True, underline=True) 
+    #         usb_printer.text(f"{line}\n") 
+    #     else: 
+    #         usb_printer.set(align='left') 
+    #         usb_printer.text(f"{line}\n") 
+
+    # usb_printer.cut()
 
     print("Order printed!\n")
     print("Waiting for a job ...")
