@@ -10,7 +10,6 @@
   </p>
 
   
-  [![WEXDEV Header][header-image]](https://example.com)
   
   <p align="center">
     <br />
